@@ -2,7 +2,7 @@
 Snippets or patterns of useful Node code
 
 ## Snippets
-- [events](#Events)
+- [events](#events)
 
 ### Events
 #### Implementation
