@@ -29,7 +29,7 @@ var dispatch = require('./dispatch');
 
 dispatch.on('eventMessage', function(event) {
 	console.log('Heard an event');
-	if (event) console.log(event);
+	if (event) console.log(event.title);
 });
 
 dispatch.emit('eventMessage', {title: 'this is super jazz!'});
