@@ -1,11 +1,11 @@
 # Node-Snippets
 Snippets or patterns of useful Node code
 
-##Snippets
-- [events](Events)
+## Snippets
+- [events](#Events)
 
-###Events
-####Implementation
+### Events
+#### Implementation
 ```javascript
 // dispatch.js
 // Simple API for Event dispatching in Node
@@ -23,7 +23,7 @@ module.exports = {
 	}
 }
 ```
-####Use
+#### Use
 ```javascript
 var dispatch = require('./dispatch');
 
