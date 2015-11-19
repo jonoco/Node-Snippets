@@ -7,6 +7,7 @@ Snippets or patterns of useful Node code
 ###Events
 ####Implementation
 ```javascript
+// dispatch.js
 // Simple API for Event dispatching in Node
 var EventEmitter = require('events');
 var observer = new EventEmitter();
