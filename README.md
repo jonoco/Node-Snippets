@@ -32,5 +32,5 @@ dispatch.on('eventMessage', function(event) {
 	if (event) console.log(event);
 });
 
-dispatch.emit('msg', {title: 'this is super jazz!'});
+dispatch.emit('eventMessage', {title: 'this is super jazz!'});
 ```
